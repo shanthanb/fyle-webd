@@ -1,5 +1,3 @@
-
-//initial data
 let serves=100,icecandy_price,lollipop_price,savings;
 let switched = true;
 let unit = "Per Month";
@@ -27,8 +25,6 @@ function compute(serve){
     $('#iceunit').html(unit);
     $('#saveunit').html(unit);
     $('#savings').html(savings);
-
-
 }
 function compare(element){
     compute(element.value);
